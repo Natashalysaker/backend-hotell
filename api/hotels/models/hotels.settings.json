@@ -1,0 +1,103 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hotels",
+  "info": {
+    "name": "hotels",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hotel_name": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "location_img": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "description_more": {
+      "type": "string"
+    },
+    "hero_img": {
+      "type": "string"
+    },
+    "img_one": {
+      "type": "string"
+    },
+    "img_one_description": {
+      "type": "string"
+    },
+    "hero_img_description": {
+      "type": "string"
+    },
+    "img_two": {
+      "type": "string"
+    },
+    "img_two_description": {
+      "type": "string"
+    },
+    "img_three": {
+      "type": "string"
+    },
+    "img_three_description": {
+      "type": "string"
+    },
+    "breakfast": {
+      "type": "boolean"
+    },
+    "bar": {
+      "type": "boolean"
+    },
+    "handicap_friendly": {
+      "type": "boolean"
+    },
+    "car_parking": {
+      "type": "boolean"
+    },
+    "restaurant": {
+      "type": "boolean"
+    },
+    "fitness_room": {
+      "type": "boolean"
+    },
+    "free_wifi": {
+      "type": "boolean"
+    },
+    "kitchen": {
+      "type": "boolean"
+    },
+    "dishwasher": {
+      "type": "boolean"
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "non_smoking": {
+      "type": "boolean"
+    },
+    "romservice": {
+      "type": "boolean"
+    },
+    "animal_friendly": {
+      "type": "boolean"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "hotel": {
+      "type": "boolean"
+    },
+    "appartment": {
+      "type": "boolean"
+    }
+  }
+}
