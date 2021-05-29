@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bookings",
+  "info": {
+    "name": "bookings"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hotel_name": {
+      "type": "string"
+    },
+    "check_in": {
+      "type": "date"
+    },
+    "check_out": {
+      "type": "date"
+    },
+    "adults": {
+      "type": "integer"
+    },
+    "children": {
+      "type": "integer"
+    },
+    "room": {
+      "type": "integer"
+    }
+  }
+}
